@@ -10,7 +10,7 @@ interface Todo {
 
 function App() {
   const [data, setData] = useState<any>([]);
-  let url = "http://localhost:5000/api/v1/todos/";
+  let url = "http://3.82.223.43:5000/api/v1/todos/";
 
   useEffect(() => {
     // fetch(url, {
